@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import * as ImagePicker from 'expo-image-picker';
 import { MaterialIcons } from '@expo/vector-icons';
 
-const Abd = ({ navigation }) => {
+const Camera = () => {
   const [image, setImage] = useState(null);
 
   const pickFromGallery = async () => {
@@ -63,7 +63,7 @@ const Abd = ({ navigation }) => {
   );
 };
 
-export default Abd;
+export default Camera;
 
 const styles = StyleSheet.create({
   container: {
